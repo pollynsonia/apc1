@@ -3,13 +3,14 @@
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main() {
   long int gigabytes;
   printf("Valor em gigabytes: ");
   scanf("%li", &gigabytes);
   
-  float bytes = gigabytes * 1024 * 1024 * 1024;
+  double bytes = gigabytes * pow(1024, 3);
 
   printf("Valor em bytes: %f\n", bytes);
   
