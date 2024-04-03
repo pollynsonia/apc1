@@ -7,26 +7,23 @@
 
 int main() {
 
-  float altura, seno, distancia;
-  
-  printf("Digite o valor da distância percorrida: ");
-  int deu_certo = scanf("%f", &distancia);
+  float distancia, altura;
+  const double PI = 3.14;
 
-  seno = altura / distancia;
-  seno = <= 45°
-  printf("A altura é:%f\n", altura);
+  printf("Digite a distância percorrida pelo avião: ");
+  float deu_certo = scanf("%f", distancia);
 
+  double seno = sin(angulo);
   
+  int seno > 45
+  printf("Esse angulo é inválido");
   
+  int seno < 45
+  printf("")
   
-  
-  
+  float angulo <= 45;
 
-  
-  
-  
-  
-  
+  altura = (seno / distancia ) * PI / 180;
 
   return 0;
 }
