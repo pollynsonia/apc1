@@ -12,6 +12,7 @@ int main() {
   }
 
  printf("\n B O L E T I M  D E  N O T A S \n");
+printf("Nota 1 Nota 2 Media\n");
   for(int i=0; i<10; i++) {
     for(int j=0; j<3; j++) {
       printf("%5.1f ", boletim[i][j]);
